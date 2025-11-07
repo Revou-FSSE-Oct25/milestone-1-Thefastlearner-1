@@ -6,24 +6,26 @@
     <title>About Me</title>
 </head>
 
-<body style="margin: auto; margin: 0;color: black; background-color: #faf9f6; color: rgb(0, 0, 0); padding: 0;">
+<body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%; margin: auto; background-color: #faf9f6; color: rgb(0, 0, 0); padding: 0;">
     
     <!-- HEADER -->
-    <<header style="text-align: center; padding: 40px 20px;position: fixed;top: 0;left: 0;width: 100%;background-color: paleturquoise;z-index: 1000; font-size: larger;font-family: 'Courier New', Courier, monospace;">
-        <nav aria-labelledby="Main Navigation">
-            <a href="../index.html" style=" text-decoration: none; font-weight: 600;">Bagas Aditya Fadly</a>
-            <a href="mailto:adityabagas23@gmail.com" style="margin-left: 180px; color:#d97c6b; text-decoration:none;">e-mail</a>
-            <a href="about.html" style="text-align: right; margin:0 10px; text-decoration: none;">About</a>
-            <a href="projects.html" style="margin:0 10px; text-decoration: none;">Projects</a>
-            <a href="form.html" style="margin:0 10px; text-decoration: none;">Hire Me!</a>
+    <header style="background-color: #faf9f6;padding: 10px;text-align: center;position: fixed;top: 0;left: 0;width: 100%;z-index: 1000; font-size: larger;font-family: 'Courier New', Courier, monospace;">
+        <nav aria-label="Main Navigation" style="max-width: 900px;margin: 0 auto; padding: 20px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+            <a href="/index.html" style=" text-decoration: none; font-weight: 600; margin-bottom: 4px;">Bagas Aditya Fadly</a>
+            <div style="padding: 20px; display: flex; align-items: center; gap: 16px; font-size: 16px; flex-wrap: wrap; justify-content: flex-end;">
+                <a href="mailto:adityabagas23@gmail.com" style="color:#d97c6b; text-decoration:none;">e-mail</a>
+                <a href="about.html" style="text-align: right; margin:0 10px; text-decoration: none;">About</a>
+                <a href="projects.html" style="margin:0 10px; text-decoration: none;">Projects</a>
+                <a href="form.html" style="margin:0 10px; text-decoration: none;">Hire Me!</a>
+            </div>
         </nav>
-    </header>
+    </header>   
 
     <!-- MAIN CONTENT -->
-    <main style="padding-top: 100px; max-width: 900px; width: 100%; margin: auto; text-align: justify;">
+    <main style="padding-top: 130px; width: 900px; max-width: 100%; margin: auto;">
 
             <!-- SECTION NAVIGATION -->
-            <nav aria-label="Page Sections" style="margin-top: 10px; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            <nav aria-label="Page Sections" style="margin: 0 0 30px;text-align: center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; justify-content: center; flex-wrap: wrap; gap: 8px;">
                 <a href="#aboutme" style="margin-top: 100px;margin: 0 15px; text-decoration: none;">About Me</a>
                 <span style="margin-right: 10px;margin-left: 10px;">|</span>
                 <a href="#myexperience" style="margin: 0 15px; text-decoration: none;">My Experience</a>
@@ -36,30 +38,30 @@
             </nav>
 
             <!-- ABOUT ME -->
-            <section id="aboutme" style="margin-bottom: 20px; margin-top: 20px;">
-                <figure style="float: left;">
+            <section id="aboutme" style="scroll-margin-top: 120px; padding: 20px;display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap;">
+                <hr>
+                <figure style="flex: 0 1 280px; margin: 0;">
                     <img src="../assets/bagas2.jpg" alt="Bagas Aditya Fadly" style="margin: auto;width: 300px; height:300px; border-radius: 20%;object-fit: cover; object-position: center; display: block;">
                 </figure>
-                <article style="margin-left: 320px;">
+                <article style="margin:auto; flex: 1 1 260px; min-width: none;">
                 <h1 style="font-size: xx-large;font-weight: lighter;font-family: 'Times New Roman', Times, serif;">I'm Bagas, a software engineer and data analyst, building web applications and analyzing data to drive business solutions.</h1>
                 <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7;">I'm passionate about leveraging technology to solve real-world problems and create impactful solutions. With a strong foundation in software development and data analysis, I enjoy transforming complex challenges into efficient and user-friendly applications.</p>
                 <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7;">Feel free to explore my portfolio to see some of the projects I've worked on and the skills I've acquired along the way.</p>
-                    <a href="https://www.linkedin.com/in/bagas-fadly" target="_blank" rel="noopener noreferrer" style="margin-left: 60px;">
+                    <a href="https://www.linkedin.com/in/bagas-fadly" target="_blank" rel="noopener noreferrer">
                     <img src="../logo/linkedin.png" height="24" width="24" alt="Linkedin"></a>
                     <a href="https://github.com/bagasadityafadly" target="_blank" rel="noopener noreferrer" style="margin-left: 10px;">
                     <img src="../logo/github.png" height="24" width="24" alt="Github"></a>
                     <a href="https://www.instagram.com/bagas_42?igsh=bXFtaGdlbjN6YjAz&utm_source=qr" target="_blank" rel="noopener noreferrer" style="margin-left: 10px;">
                     <img src="../logo/instagram.png" height="24" width="24" alt="instagram"></a>
-                </article>
+                    </article>
             </section>
-            
-            <hr style="margin-top: 40px;margin-bottom: 40px;">
 
             <!-- MY EXPERIENCE -->
-            <section id="myexperience" style="margin-bottom: 20px; ">
+            <section id="myexperience" style="scroll-margin-top: 120px; padding: 20px;">
+                <hr>
                 <h2 style="font-size: xx-large;font-weight: lighter;font-family: 'Times New Roman', Times, serif;">My Experience</h2>
                 <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7">About my experience, i can say that i don't have so many experience especially in coding and programming. I ever learn and make a website that developed by using ReactJS. I built it not in my own. I made with some research in YouTube and other platform.</p>
-                <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px;">Right now, i have new experience that relative with my boothcamp in RevoU. Here the list:</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7">Right now, i have new experience that relative with my boothcamp in RevoU. Here the list:</p>
                 <ul>
                     <li><strong>Daily life Website</strong></li>
                     <p>A page describing a typical day using structured HTML Layout</p>
@@ -69,10 +71,10 @@
                     <p>A personal website to describe about the person/company</p>
                 </ul>
             </section>
-            <hr style="margin-top: 40px;margin-bottom: 40px;">
 
             <!-- LEARNING JOURNEY -->
-            <section id="learningjourney" style="margin-bottom: 20px;">
+            <section id="learningjourney" style="scroll-margin-top: 120px; padding: 20px;">
+                <hr>
                 <h2 style="font-size: xx-large;font-weight: lighter;font-family: 'Times New Roman', Times, serif;">Learning Journey</h2>
                 <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7">Here's what i learned and thought over the past week:</p>
 
@@ -95,10 +97,10 @@
                     </tbody>
                 </table>
             </section>
-            <hr style="margin-top: 40px;margin-bottom: 40px;">
 
             <!-- FUN FACTS -->
-            <section id="funfacts" style="margin-bottom: 20px;">
+            <section id="funfacts" style="scroll-margin-top: 120px; padding: 20px;">
+                <hr>
                 <h2 style="font-size: xx-large;font-weight: lighter;font-family: 'Times New Roman', Times, serif;">Fun Facts</h2>
                 <ul style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7">
                     <li>I love traveling, especially to new places and culture that different form usual.</li>
@@ -107,18 +109,17 @@
                     <li>I'm an avid reader and love exploring books on personal development and technology.</li>
                 </ul>
             </section>
-                <hr style="margin-top: 40px;margin-bottom: 40px;">
-
+            
             <!-- BACKGROUND -->
-            <section id="background" style="margin-bottom: 40px; text-align: justify; font-family: Arial, Helvetica, sans-serif; ">
+            <section id="background" style="scroll-margin-top: 120px; padding: 20px;">
+                <hr>
                 <h2 style="font-size: xx-large;font-weight: lighter;font-family: 'Times New Roman', Times, serif;">Background</h2>
                 <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7">I graduated from Universitas Pembangunan Panca Budi with a degree in Computer Engineering. During my time at university, I developed a strong foundation in analytical thinking and problem-solving skills, which have been invaluable in my professional journey.</p>
                 <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7">I believe that continuous learning and adaptation are key to success in the ever-evolving tech landscape. I am committed to staying updated with the latest industry trends and technologies to enhance my skills and deliver the best results in my work.</p>
             </section>
+            <h3 style="padding: 20px; font-family: 'Courier New', Courier, monospace;">That's all about my profile. Thank you for visiting!</h3>
 
-            <h3 style="font-family: 'Courier New', Courier, monospace;">That's all about my profile. Thank you for visiting!</h3>
-
-        </main>
+    </main>
 
         <!-- FOOTER -->
         <footer style="background: skyblue; color: white; text-align: center; padding: 20px;">
@@ -130,3 +131,6 @@
                 <img src="../logo/instagram.png" height="24" width="24" alt="instagram"></a>
             <p>@ 2025 Bagas Aditya Fadly</p>
         </footer>
+ 
+</body>
+</html>
