@@ -21,7 +21,7 @@ This portfolio serves as a digital introduction to my professional and creative 
 It demonstrates the application of core web technologies — from layout design to responsive UI components.
 
 **Main Sections:**
-- **Name:** A brief introduction and navigation bar for easy access.  
+- **Name:** A brief introduction and navigation bar for easy access....
 - **About:** A summary of personal background, education, and goals.  
 - **Projects:** A showcase of completed works and technical exercises.  
 - **Hire:** Project collaboration offers (web development, design, etc.).
