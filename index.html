@@ -3,97 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Software Engineering from Indonesia</title>
+    
+    <title>Bagas Aditya Fadly</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+
 </head>
 
-<body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%; margin: auto; background-color: #faf9f6; color: rgb(0, 0, 0); padding: 0;">
+<body>
     
     <!-- HEADER -->
-    <header style="background-color: #faf9f6;padding: 10px;text-align: center;position: fixed;top: 0;left: 0;width: 100%;z-index: 1000; font-size: larger;font-family: 'Courier New', Courier, monospace;">
-        <nav aria-label="Main Navigation" style="max-width: 900px;margin: 0 auto; padding: 20px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-            <a href="index.html" style=" text-decoration: none; font-weight: 600; margin-bottom: 4px;">Bagas Aditya Fadly</a>
-            <div style="padding: 20px; display: flex; align-items: center; gap: 16px; font-size: 16px; flex-wrap: wrap; justify-content: flex-end;">
-                <a href="mailto:adityabagas23@gmail.com" style="color:#d97c6b; text-decoration:none;">e-mail</a>
-                <a href="pages/about.html" style="text-align: right; margin:0 10px; text-decoration: none;">About</a>
-                <a href="pages/projects.html" style="margin:0 10px; text-decoration: none;">Projects</a>
-                <a href="pages/form.html" style="margin:0 10px; text-decoration: none;">Hire Me!</a>
+    <header>
+        <div class="mx-auto max-w-4xl flex flex-col md:flex-row items-center justify-between">   
+            <div class="btn text-center md:text-left">
+                <a href="#">
+                <p class="font-bold">BAGAS ADITYA FADLY</p>
+                <p class="text-sm">Software &amp Data Engineering</p>
+                </a>
             </div>
-        </nav>
+
+            <div>
+                <nav class="mt-4 md:mt-0">
+                    <ul class="flex gap-4 justify-center">
+                        <li class="btn link"><a href="pages/about.html">ABOUT</a></li>
+                        <li class="btn link"><a href="pages/projects.html"></a>PROJECTS</a></li>
+                        <li class="contact"><a href="pages/form.html">CONTACT!</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <!-- MAIN CONTENT -->
-    <main style="padding-top: 130px; width: 900px; max-width: 100%; margin: auto;">
-
-        <!-- SECTION NAVIGATION -->
-        <nav aria-label="Section Navigation" style="margin: 0 10px 30px;text-align: center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; justify-content: center; flex-wrap: wrap; gap: 10px;">
-            <a href="#introduction" style="margin: 0 20px; text-decoration: none;">Introduction</a>
-            <span style="margin-right: 10px;margin-left: 10px;">|</span>
-            <a href="#featured-projects" style="margin: 0 20px; text-decoration: none;">Featured Projects</a>
-            <span style="margin-right: 10px;margin-left: 10px;">|</span>
-            <a href="#why-work-with-me" style="margin: 0 20px; text-decoration: none;">Why work with me!</a>
-        </nav>
-
-        <!-- INTRODUCTION -->
-        <section id="introduction" style="scroll-margin-top: 120px; padding: 20px;display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap;">
-        <article style="margin-top: 50px; flex: 1 1 260px; min-width: none;">
-            <hr>
-            <h1 style="font-size: xx-large;font-weight: lighter;font-family: 'Times New Roman', Times, serif;margin: 16px 0 12px;">
-                I'm Bagas, an independent software developer and data analyst from Medan, Indonesia.
-            </h1>
-            <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7;">
-                I have a passion for learning new technologies and applying them to solve real-world problems. Read a bit more 
-                <a href="pages/about.html" style="font-weight: bold; text-decoration: none;">about me</a>.</p>
-                <a href="https://www.linkedin.com/in/bagas-fadly" target="_blank" rel="noopener noreferrer">
-                    <img src="logo/linkedin.png" height="24" width="24" alt="Linkedin"></a>
-                <a href="https://github.com/bagasadityafadly" target="_blank" rel="noopener noreferrer">
-                    <img src="logo/github.png" height="24" width="24" alt="Github"></a>
-                <a href="https://www.instagram.com/bagas_42?igsh=bXFtaGdlbjN6YjAz&utm_source=qr" target="_blank" rel="noopener noreferrer">
-                    <img src="logo/instagram.png" height="24" width="24" alt="instagram"></a>
+    <main class="max-w-screen-2xl mx-auto lg:px-13">
+        <article class="font-bold text-5xl text-center">
+            <h1>IT’S NOT JUST CODE.</h1>
+            <h1>IT’S THE WAY TO CONNECT PEOPLE, IDEAS AND IMPACT.</h1>
         </article>
 
-        <figure style="flex: 0 1 280px; margin: 0;">
-            <img src="assets/bagas.jpg" alt="Bagas Aditya Fadly" style="max-width: 320px; border-radius: 20px; object-fit: fill;">
-        </figure>
+        <!-- INTRODUCTION -->
+        <section id="introduction">
+            <div class="p-[20px] text-center my-10">
+                <h1 class="hey">
+                    Hey
+                </h1>
+                <h1 class="font-bold">
+                    I'M BAGAS!
+                </h1>
+            </div>
+            <div class="mx-auto w-full max-w-4xl">
+                <div class="md:flex gap-6 md:gap-8 p-4 md:p-6">
+                    <div class="md:shrink-0">
+                        <figure>
+                            <img class="h-[600px] w-full object-cover md:h-[530px] md:w-[300px]" src="assets/bagas.jpg" alt="Bagas Aditya Fadly">
+                        </figure>
+                    </div>
+                    <div>
+                        <article class="card">
+                            <p>
+                                An independent software engineering &amp data analyst based 
+                                in Medan, Indonesia.
+                                <br>
+                                <br>
+                                <b>I build modern, responsive websites and help people make 
+                                better decisions through data, so you’re not guessing your 
+                                way through important moves.</b>
+                                <br>
+                                <br>
+                                My current toolkit includes 
+                                <a class="btn" href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                                    <i>HTML</i></a>, 
+                                <a class="btn" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                                    <i>CSS</i></a>, 
+                                    and 
+                                <a class="btn" href="https://tailwindcss.com"><i>Tailwind CSS</i></a> 
+                                for building responsive interfaces, and analytical 
+                                tools like <a class="btn" href="https://docs.cloud.google.com/bigquery/docs/introduction">
+                                <i>BigQuery</i></a> and <a class="btn" href="https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query">
+                                <i>PowerQuery</i></a> for exploring and shaping data. I’m continuously 
+                                learning newer stacks and languages so I can adapt to whatever your 
+                                product needs next, not whatever was trendy five years ago.
+                                <br>
+                                <br>
+                                In short: I build the system, then I listen to the data, so improvements 
+                                are intentional, not <i><s>a roulette wheel of “maybe this works”</s></i> random 
+                                experiments.
+                            </p>
+                        </article>
+                    
+                        <ul class="flex flex-wrap mt-4 md:mt-4 gap-4">
+                            <li class="btn-li"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"></a>HTML</li>
+                            <li class="btn-li"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"></a>CSS</li>
+                            <li class="btn-li"><a href="https://tailwindcss.com"></a>Tailwind</li>
+                            <li class="btn-li"><a href="https://docs.cloud.google.com/bigquery/docs/introduction"></a>BigQuery</li>
+                            <li class="btn-li"><a href="https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query"></a>Power Query</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <article class="text-center mt-12">
+            <h1 class="font-bold text-5xl"
+                >GOOD CODE MAKES IT WORK.
+                <br> 
+                GOOD DATA MAKES IT RIGHT.</h1>
+            <h2 class="text-xl">You have the idea. I’ll engineer the solution and validate it with insight.</h2>
+        </article>
 
         <!-- FEATURED PROJECTS -->
-        <section id="featured-projects" style="scroll-margin-top: 120px; padding: 20px;">
-            <hr style="margin-bottom: 24px;">
-            <h1 style="font-size: 40px;font-weight: lighter;font-family: 'Times New Roman', Times, serif;">
-                Featured Projects
-            </h1>
-            <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7;">
-                Right now, I don't have many projects to showcase, but I'm actively working on building my portfolio.
-            </p>
-            <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7;">
-                I believe that every project is a learning opportunity, and I'm excited to share my progress as I continue to grow as a developer.
-            </p>
-            <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7;">
-                Check back soon to see my latest work!
-            </p>
+        <section id="featured-projects" class="">
+            <div class="card">
+                <article class="">
+                    <p>
+                    I believe that every project is a learning opportunity, and I'm excited 
+                    to share my progress as I continue to grow as a developer.
+                    <br>
+                    <br>
+                    Below are a few mini projects I’ve already created. They’re small in 
+                    scope but serious in intent: 
+                    </p>
+                </article>
+                <h2 class="bold">Mini Projects</h2>
+                <ul>
+                    <li><a href="https://bagasadityafadly.github.io/htmllandingpag-task/"><img src="assets/Project/xiaomi.png" alt=""></a></li>
+                    <li><a href="https://bagasadityafadly.github.io/W1D4/"><img src="assets/Project/form.png" alt=""></a></li>
+                    <li><img src="assets/Project/flex.png" alt=""></li>
+                </ul>
+                <h2>School Project</h2>
+                <ul>
+                    <li><img src="assets/Project/delivery.png" alt=""><a href="http://localhost:3000"></a></li>
+                </ul>
+                <h3>Future Project</h3>
+                <img src="" alt="">
+                <ul>
+                    <li><img src="assets/Project/luxeline.png" alt=""><a href="https://bagasadityafadly.github.io/W3D2/"></a></li>
+                </ul>
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
         </section>
-        
 
         <!-- WHY WORK WITH ME -->
-        <section id="why-work-with-me" style="scroll-margin-top: 120px; padding: 20px;">
-            <hr style="margin-bottom: 24px;">
-            <h1 style="font-size: 40px;font-weight: lighter;font-family: 'Times New Roman', Times, serif;">Why Work With Me?</h1>
-            <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7;">I am committed to delivering high-quality work and ensuring client satisfaction. My goal is to build long-term relationships with my clients and help them achieve their objectives.</p>
-            <p style="font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px; line-height: 1.7;">I am always open to feedback and willing to make adjustments to my work to meet your needs.</p>
+        <section id="why-work-with-me" class="">
+            <div class="card">
+                <article class="">
+                    <h1>Why Work With Me?</h1>
+                    <p>I am committed to delivering high-quality work and ensuring client 
+                        satisfaction. My goal is to build long-term relationships with my 
+                        clients and help them achieve their objectives.
+                        <br>
+                        <br>
+                        I am always open to feedback and willing to make adjustments to my 
+                        work to meet your needs.</p>
+                </article>
+            </div>
         </section>
-
     </main>
 
         <!-- FOOTER -->
-        <footer style="background: skyblue; color: white; text-align: center; padding: 20px;">
-            <a href="https://www.linkedin.com/in/bagas-fadly" target="_blank" rel="noopener noreferrer">
-                <img src="logo/linkedin.png" height="24" width="24" alt="Linkedin"></a>
-            <a href="https://github.com/bagasadityafadly" target="_blank" rel="noopener noreferrer">
-                <img src="logo/github.png" height="24" width="24" alt="Github"></a>
-            <a href="https://www.instagram.com/bagas_42?igsh=bXFtaGdlbjN6YjAz&utm_source=qr" target="_blank" rel="noopener noreferrer">
-                <img src="logo/instagram.png" height="24" width="24" alt="instagram"></a>
-            <p>@ 2025 Bagas Aditya Fadly</p>
-        </footer>
+        <footer class="mt-12 py-6 border-t flex flex-col items-center gap-3">
+      <ul class="flex gap-4">
+        <li>
+          <a href="https://www.linkedin.com/in/bagas-fadly" target="_blank" rel="noopener noreferrer">
+            <img src="logo/linkedin.png" height="24" width="24" alt="Linkedin">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/bagasadityafadly" target="_blank" rel="noopener noreferrer">
+            <img src="logo/github.png" height="24" width="24" alt="Github">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/bagas_42" target="_blank" rel="noopener noreferrer">
+            <img src="logo/instagram.png" height="24" width="24" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+      <p>@ 2025 Bagas Aditya Fadly</p>
+    </footer>
 
     </body>
 </html>

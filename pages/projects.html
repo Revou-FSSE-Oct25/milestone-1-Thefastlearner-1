@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
+    <title>Bagas Aditya Fadly</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 
-<body style="box-sizing: border-box; margin: 0; padding: 0; width: 100%; margin: auto; background-color: #faf9f6; color: rgb(0, 0, 0); padding: 0;">
+<body>
     
     <!-- HEADER -->
-    <header style="background-color: #faf9f6;padding: 10px;text-align: center;position: fixed;top: 0;left: 0;width: 100%;z-index: 1000; font-size: larger;font-family: 'Courier New', Courier, monospace;">
-        <nav aria-label="Main Navigation" style="max-width: 900px;margin: 0 auto; padding: 20px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-            <a href="../index.html" style=" text-decoration: none; font-weight: 600; margin-bottom: 4px;">Bagas Aditya Fadly</a>
-            <div style="padding: 20px; display: flex; align-items: center; gap: 16px; font-size: 16px; flex-wrap: wrap; justify-content: flex-end;">
-                <a href="mailto:adityabagas23@gmail.com" style="color:#d97c6b; text-decoration:none;">e-mail</a>
-                <a href="about.html" style="text-align: right; margin:0 10px; text-decoration: none;">About</a>
-                <a href="projects.html" style="margin:0 10px; text-decoration: none;">Projects</a>
-                <a href="form.html" style="margin:0 10px; text-decoration: none;">Hire Me!</a>
+    <header>
+        <div class="mx-auto max-w-4xl flex flex-col md:flex-row items-center justify-between">   
+            <div class="btn text-center md:text-left">
+                <a href="../index.html">
+                <p class="font-bold">BAGAS ADITYA FADLY</p>
+                <p class="text-sm">Software &amp Data Engineering</p>
+                </a>
             </div>
-        </nav>
-    </header>  
+
+            <div>
+                <nav class="mt-4 md:mt-0">
+                    <ul class="flex gap-4 justify-center">
+                        <li class="btn link"><a href="about.html" target="_blank" rel="noopener noreferrer">ABOUT</a></li>
+                        <li class="btn link"><a href="projects.html" target="_blank" rel="noopener noreferrer">PROJECTS</a></li>
+                        <li class="contact"><a href="form.html"target="_blank" rel="noopener noreferrer">CONTACT!</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
     <!-- MAIN CONTENT -->
     <main style="width: 900px; max-width: 100%; margin: auto;">
